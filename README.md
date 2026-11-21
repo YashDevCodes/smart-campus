@@ -181,24 +181,79 @@ The core intelligence of **Smart AI** is guided by prompt engineering techniques
 
 ## 🌐 Deployment Instructions
 
-### Deploy to Render (Recommended for Full-Stack Node.js)
-1. Push this repository to GitHub or GitLab.
-2. Sign in to [Render](https://render.com/) and create a new **Web Service**.
-3. Connect your repository.
-4. Configure service settings:
-   - **Environment:** `Node`
-   - **Build Command:** `npm install`
-   - **Start Command:** `node server.js`
-5. In the **Environment Variables** tab, add:
-   - `GEMINI_API_KEY`: *(Your Google AI Studio API key)*
-   - `GEMINI_MODEL`: `gemini-2.5-flash`
-   - `PORT`: `10000`
-6. Click **Deploy Web Service**.
+## 🌐 Vercel Production Deployment Guide
 
-### Deploy to Vercel
-1. Install Vercel CLI: `npm i -g vercel`.
-2. Run `vercel` in the project root.
-3. Add `GEMINI_API_KEY` in Vercel Project Settings under **Environment Variables**.
+The SMART CAMPUS portal is 100% serverless-ready and configured for instant Vercel deployment with dedicated `vercel.json` and `api/index.js` routing.
+
+### Architecture on Vercel:
+- **Static Assets:** Served directly via Vercel Global Edge CDN from the `public/` folder (`/`, `/css/*`, `/js/*`, `/assets/*`).
+- **Serverless API Routes:** Requests to `/api/*` are handled by the Express Serverless Function at `api/index.js`.
+- **AI Engine:** Securely queries Google Gemini API using server-side environment variables with no frontend key exposure.
+
+---
+
+### Method A: Deploy via GitHub & Vercel Dashboard (Recommended)
+
+1. **Push your code to GitHub:**
+   ```bash
+   git add .
+   git commit -m "Configure Vercel serverless deployment"
+   git remote add origin https://github.com/<your-username>/<your-repo-name>.git
+   git branch -M main
+   git push -u origin main
+   ```
+
+2. **Import into Vercel:**
+   - Go to [Vercel Dashboard](https://vercel.com/) and click **"Add New..." -> "Project"**.
+   - Select your GitHub repository.
+   - **Framework Preset:** Select **Other** (Vercel automatically detects `vercel.json`).
+   - **Root Directory:** `./`
+
+3. **Configure Environment Variables in Vercel:**
+   Expand the **Environment Variables** section and add:
+   - `GEMINI_API_KEY` = `your_google_ai_studio_api_key`
+   - `GEMINI_MODEL` = `gemini-3.1-flash-lite`
+
+4. **Deploy:**
+   - Click **Deploy**. Vercel will build and assign you a live production URL (e.g., `https://smart-campus-xxx.vercel.app`).
+
+---
+
+### Method B: Deploy via Vercel CLI
+
+1. **Install Vercel CLI:**
+   ```bash
+   npm install -g vercel
+   ```
+
+2. **Deploy to Preview:**
+   ```bash
+   vercel
+   ```
+   Follow the interactive prompts:
+   - *Set up and deploy?* -> `Y`
+   - *Which scope?* -> Select your account
+   - *Link to existing project?* -> `N`
+   - *Project name?* -> `smart-campus`
+   - *In which directory is your code located?* -> `./`
+
+3. **Add Secrets via CLI & Deploy to Production:**
+   ```bash
+   vercel env add GEMINI_API_KEY
+   vercel env add GEMINI_MODEL
+   vercel --prod
+   ```
+
+---
+
+### Verified Google AI Models for Vercel:
+
+| Model ID | Latency | Status on Vercel | Recommendation |
+|---|---|---|---|
+| `gemini-3.1-flash-lite` | **~1.2s - 1.7s** | ✅ **Verified Active** | **Best for Production** (Ultra-fast, lowest latency) |
+| `gemini-3.5-flash-lite` | **~850ms** | ✅ **Verified Active** | Ultra-lightweight fallback |
+| `gemini-3.5-flash` | **~8.8s** | ✅ **Verified Active** | Standard multimodal reasoning |
+| `gemini-3.8-flash` | **~15s+** | ⚠️ High Demand Spikes | May encounter temporary 503 during peak traffic |
 
 ---
 

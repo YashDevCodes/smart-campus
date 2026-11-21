@@ -5,7 +5,11 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node --watch server.js"
+    "dev": "node --watch server.js",
+    "build": "node -v"
+  },
+  "engines": {
+    "node": ">=18.x"
   },
   "keywords": [
     "smart-campus",
@@ -13,7 +17,8 @@
     "gemini-ai",
     "prompt-engineering",
     "express",
-    "nodejs"
+    "nodejs",
+    "vercel"
   ],
   "author": "B.Tech CSE (AI/ML) Student",
   "license": "ISC",

@@ -1,0 +1,49 @@
+%PDF-1.4
+1 0 obj << /Type /Catalog /Pages 2 0 R >> endobj
+2 0 obj << /Type /Pages /Kids [3 0 R] /Count 1 >> endobj
+3 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >> endobj
+5 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> endobj
+4 0 obj << /Length 847 >> stream
+BT
+/F1 18 Tf
+50 720 Td
+(SMART CAMPUS - ACADEMIC STUDY NOTES) Tj
+/F1 12 Tf
+0 -25 Td
+(Subject: Data Structures & Algorithms \(CS301\)) Tj
+0 -18 Td
+(Title: Unit 1: Asymptotic Analysis & Advanced Arrays) Tj
+0 -18 Td
+(Faculty: Dr. Rajesh Sharma) Tj
+0 -18 Td
+(Apex Institute of Technology - Department of CSE AI/ML) Tj
+0 -30 Td
+/F1 14 Tf
+(Curriculum Outline & Key Study Topics:) Tj
+/F1 10 Tf
+0 -22 Td
+(1. Mathematical Foundations of Algorithm Analysis: Big-O, Big-Omega, Big-Theta definitions) Tj
+0 -22 Td
+(2. Master Theorem for Divide-and-Conquer Recurrences with corner cases) Tj
+0 -22 Td
+(3. Amortized Complexity Analysis: Aggregate, Accounting, and Potential methods) Tj
+0 -22 Td
+(4. Dynamic Array Doubling Strategy and Memory Allocation Benchmarks) Tj
+0 -40 Td
+/F1 9 Tf
+(Verified Course Material - Available for B.Tech CSE AI/ML 3rd Semester) Tj
+ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000280 00000 n 
+0000000220 00000 n 
+trailer << /Size 7 /Root 1 0 R >>
+startxref
+1209
+%%EOF

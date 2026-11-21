@@ -1,0 +1,458 @@
+{
+  "student": {
+    "name": "Yash Sharma",
+    "rollNo": "23CSAI042",
+    "department": "Computer Science & Engineering (AI & ML)",
+    "program": "B.Tech CSE (AI/ML)",
+    "semester": 3,
+    "year": 2,
+    "section": "AIML-A",
+    "college": "Apex Institute of Technology & Engineering",
+    "email": "yash.sharma.aiml@apextech.edu.in",
+    "attendance": "89.4%",
+    "cgpa": "9.12"
+  },
+  "subjects": [
+    {
+      "code": "CS301",
+      "name": "Data Structures & Algorithms",
+      "shortName": "DSA",
+      "faculty": "Dr. Rajesh Sharma",
+      "room": "LH-204",
+      "credits": 4,
+      "color": "#1B75BB"
+    },
+    {
+      "code": "CS302",
+      "name": "Computer Networks",
+      "shortName": "CN",
+      "faculty": "Prof. Ananya Roy",
+      "room": "LH-102",
+      "credits": 4,
+      "color": "#0B2545"
+    },
+    {
+      "code": "CS303",
+      "name": "Operating Systems",
+      "shortName": "OS",
+      "faculty": "Dr. Vikram Malhotra",
+      "room": "CS-Lab 2",
+      "credits": 4,
+      "color": "#0284C7"
+    },
+    {
+      "code": "CS304",
+      "name": "Discrete Mathematics",
+      "shortName": "DM",
+      "faculty": "Prof. S. K. Gupta",
+      "room": "LH-301",
+      "credits": 3,
+      "color": "#4F46E5"
+    },
+    {
+      "code": "AI301",
+      "name": "Prompt Engineering & Generative AI",
+      "shortName": "PE-GenAI",
+      "faculty": "Dr. Neha Verma",
+      "room": "AI-Lab",
+      "credits": 3,
+      "color": "#059669"
+    }
+  ],
+  "timetable": {
+    "Monday": [
+      { "time": "09:00 - 10:00", "subject": "Data Structures & Algorithms", "code": "CS301", "faculty": "Dr. Rajesh Sharma", "room": "LH-204", "type": "Lecture" },
+      { "time": "10:00 - 11:00", "subject": "Operating Systems", "code": "CS303", "faculty": "Dr. Vikram Malhotra", "room": "CS-Lab 2", "type": "Lecture" },
+      { "time": "11:15 - 12:15", "subject": "Discrete Mathematics", "code": "CS304", "faculty": "Prof. S. K. Gupta", "room": "LH-301", "type": "Lecture" },
+      { "time": "12:15 - 01:15", "subject": "Computer Networks", "code": "CS302", "faculty": "Prof. Ananya Roy", "room": "LH-102", "type": "Lecture" },
+      { "time": "02:00 - 04:00", "subject": "DSA Practical Lab", "code": "CS301-P", "faculty": "Dr. Rajesh Sharma & TAs", "room": "CS-Lab 1", "type": "Practical" },
+      { "time": "04:00 - 05:00", "subject": "Library / Self Study", "code": "LIB", "faculty": "Faculty Mentor", "room": "Central Library", "type": "Study" }
+    ],
+    "Tuesday": [
+      { "time": "09:00 - 10:00", "subject": "Computer Networks", "code": "CS302", "faculty": "Prof. Ananya Roy", "room": "LH-102", "type": "Lecture" },
+      { "time": "10:00 - 11:00", "subject": "Prompt Engineering & GenAI", "code": "AI301", "faculty": "Dr. Neha Verma", "room": "AI-Lab", "type": "Lecture" },
+      { "time": "11:15 - 12:15", "subject": "Data Structures & Algorithms", "code": "CS301", "faculty": "Dr. Rajesh Sharma", "room": "LH-204", "type": "Lecture" },
+      { "time": "12:15 - 01:15", "subject": "Operating Systems", "code": "CS303", "faculty": "Dr. Vikram Malhotra", "room": "LH-204", "type": "Lecture" },
+      { "time": "02:00 - 04:00", "subject": "Prompt Engineering Lab", "code": "AI301-P", "faculty": "Dr. Neha Verma", "room": "AI-Lab", "type": "Practical" },
+      { "time": "04:00 - 05:00", "subject": "Coding Club / Mentorship", "code": "CLUB", "faculty": "Prof. Ananya Roy", "room": "Seminar Hall A", "type": "Activity" }
+    ],
+    "Wednesday": [
+      { "time": "09:00 - 10:00", "subject": "Discrete Mathematics", "code": "CS304", "faculty": "Prof. S. K. Gupta", "room": "LH-301", "type": "Lecture" },
+      { "time": "10:00 - 11:00", "subject": "Operating Systems", "code": "CS303", "faculty": "Dr. Vikram Malhotra", "room": "LH-204", "type": "Lecture" },
+      { "time": "11:15 - 12:15", "subject": "Prompt Engineering & GenAI", "code": "AI301", "faculty": "Dr. Neha Verma", "room": "AI-Lab", "type": "Lecture" },
+      { "time": "12:15 - 01:15", "subject": "Data Structures & Algorithms", "code": "CS301", "faculty": "Dr. Rajesh Sharma", "room": "LH-204", "type": "Tutorial" },
+      { "time": "02:00 - 04:00", "subject": "OS Systems Lab", "code": "CS303-P", "faculty": "Dr. Vikram Malhotra", "room": "CS-Lab 2", "type": "Practical" },
+      { "time": "04:00 - 05:00", "subject": "Sports & Recreation", "code": "REC", "faculty": "Sports Dept", "room": "Sports Complex", "type": "Recreation" }
+    ],
+    "Thursday": [
+      { "time": "09:00 - 10:00", "subject": "Data Structures & Algorithms", "code": "CS301", "faculty": "Dr. Rajesh Sharma", "room": "LH-204", "type": "Lecture" },
+      { "time": "10:00 - 11:00", "subject": "Computer Networks", "code": "CS302", "faculty": "Prof. Ananya Roy", "room": "LH-102", "type": "Lecture" },
+      { "time": "11:15 - 12:15", "subject": "Discrete Mathematics", "code": "CS304", "faculty": "Prof. S. K. Gupta", "room": "LH-301", "type": "Lecture" },
+      { "time": "12:15 - 01:15", "subject": "Prompt Engineering & GenAI", "code": "AI301", "faculty": "Dr. Neha Verma", "room": "AI-Lab", "type": "Lecture" },
+      { "time": "02:00 - 04:00", "subject": "Computer Networks Lab", "code": "CS302-P", "faculty": "Prof. Ananya Roy", "room": "Networks Lab", "type": "Practical" },
+      { "time": "04:00 - 05:00", "subject": "AI Project Workshop", "code": "PROJ", "faculty": "Dr. Neha Verma", "room": "AI-Lab", "type": "Workshop" }
+    ],
+    "Friday": [
+      { "time": "09:00 - 10:00", "subject": "Operating Systems", "code": "CS303", "faculty": "Dr. Vikram Malhotra", "room": "LH-204", "type": "Lecture" },
+      { "time": "10:00 - 11:00", "subject": "Data Structures & Algorithms", "code": "CS301", "faculty": "Dr. Rajesh Sharma", "room": "LH-204", "type": "Lecture" },
+      { "time": "11:15 - 12:15", "subject": "Computer Networks", "code": "CS302", "faculty": "Prof. Ananya Roy", "room": "LH-102", "type": "Lecture" },
+      { "time": "12:15 - 01:15", "subject": "Discrete Mathematics Tutorial", "code": "CS304-T", "faculty": "Prof. S. K. Gupta", "room": "LH-301", "type": "Tutorial" },
+      { "time": "02:00 - 03:30", "subject": "AI Seminar & Research Reading", "code": "SEM", "faculty": "Dr. Neha Verma", "room": "Auditorium", "type": "Seminar" },
+      { "time": "03:30 - 05:00", "subject": "Open Hack & Innovation Time", "code": "HACK", "faculty": "Student Council", "room": "Innovation Hub", "type": "Activity" }
+    ],
+    "Saturday": [
+      { "time": "09:30 - 11:00", "subject": "Prompt Engineering Hands-On Special", "code": "AI301", "faculty": "Dr. Neha Verma", "room": "AI-Lab", "type": "Special Session" },
+      { "time": "11:15 - 12:45", "subject": "Competitive Programming Practice", "code": "CP", "faculty": "Dr. Rajesh Sharma", "room": "CS-Lab 1", "type": "Practice" },
+      { "time": "01:30 - 03:30", "subject": "Technical Project Review & Viva", "code": "VIVA", "faculty": "Academic Committee", "room": "Conference Room", "type": "Evaluation" }
+    ]
+  },
+  "assignments": [
+    {
+      "id": "ASG-001",
+      "title": "Red-Black Tree & AVL Tree Implementation in C++",
+      "subject": "Data Structures & Algorithms",
+      "code": "CS301",
+      "assignedDate": "2026-11-15",
+      "dueDate": "2026-11-23",
+      "status": "Pending",
+      "description": "Implement self-balancing Binary Search Trees including AVL Tree rotations (LL, RR, LR, RL) and Red-Black Tree recoloring & rotations. Include time complexity benchmarks.",
+      "weightage": "15% of Internal Marks",
+      "maxMarks": 25,
+      "submissionType": "Code Archive (.zip / GitHub Link)",
+      "isApproaching": true
+    },
+    {
+      "id": "ASG-002",
+      "title": "Producer-Consumer Problem using POSIX Semaphores",
+      "subject": "Operating Systems",
+      "code": "CS303",
+      "assignedDate": "2026-11-17",
+      "dueDate": "2026-11-26",
+      "status": "Pending",
+      "description": "Develop a multi-threaded C program simulating the classic bounded-buffer producer-consumer problem. Use pthread mutex and sem_t to ensure deadlock-free synchronization.",
+      "weightage": "10% of Internal Marks",
+      "maxMarks": 20,
+      "submissionType": "C Source Code + Execution Report",
+      "isApproaching": false
+    },
+    {
+      "id": "ASG-003",
+      "title": "Socket Programming: Multi-Client Chat Server in Python",
+      "subject": "Computer Networks",
+      "code": "CS302",
+      "assignedDate": "2026-11-14",
+      "dueDate": "2026-11-28",
+      "status": "Pending",
+      "description": "Write a multi-threaded TCP server in Python that can accept multiple concurrent clients, broadcast messages, handle client disconnects gracefully, and implement private messaging.",
+      "weightage": "10% of Internal Marks",
+      "maxMarks": 20,
+      "submissionType": "Python scripts (.py) with Wireshark packet capture",
+      "isApproaching": false
+    },
+    {
+      "id": "ASG-004",
+      "title": "Few-Shot Chain-of-Thought Benchmark Evaluation",
+      "subject": "Prompt Engineering & Generative AI",
+      "code": "AI301",
+      "assignedDate": "2026-11-18",
+      "dueDate": "2026-11-27",
+      "status": "Pending",
+      "description": "Design structured zero-shot, few-shot, and chain-of-thought prompts for mathematical and logical reasoning using Google Gemini API. Compare accuracy and hallucination rates across 20 test questions.",
+      "weightage": "20% of Internal Marks",
+      "maxMarks": 30,
+      "submissionType": "Jupyter Notebook (.ipynb) + Evaluation Report",
+      "isApproaching": true
+    },
+    {
+      "id": "ASG-005",
+      "title": "Graph Coloring Theorems & Recurrence Relation Proofs",
+      "subject": "Discrete Mathematics",
+      "code": "CS304",
+      "assignedDate": "2026-11-05",
+      "dueDate": "2026-11-19",
+      "status": "Submitted",
+      "submittedDate": "2026-11-18",
+      "grade": "28/30",
+      "description": "Prove four-color theorem basics, solve linear homogeneous recurrence relations with constant coefficients, and demonstrate bipartite graph testing using DFS.",
+      "weightage": "10% of Internal Marks",
+      "maxMarks": 30,
+      "submissionType": "Handwritten PDF scan",
+      "isApproaching": false
+    },
+    {
+      "id": "ASG-006",
+      "title": "Subnetting and CIDR Routing Table Configuration",
+      "subject": "Computer Networks",
+      "code": "CS302",
+      "assignedDate": "2026-11-01",
+      "dueDate": "2026-11-16",
+      "status": "Overdue",
+      "description": "Calculate subnets, broadcast addresses, and valid host ranges for a classless IPv4 enterprise network with VLSM. Submit Cisco Packet Tracer topology file.",
+      "weightage": "10% of Internal Marks",
+      "maxMarks": 20,
+      "submissionType": "Packet Tracer (.pkt) file",
+      "isApproaching": false
+    }
+  ],
+  "notes": [
+    {
+      "id": "NOTE-001",
+      "title": "Unit 1: Asymptotic Analysis & Advanced Arrays",
+      "subject": "Data Structures & Algorithms",
+      "code": "CS301",
+      "unit": "Unit 1",
+      "fileName": "DSA_Unit1_Asymptotic_Analysis.pdf",
+      "uploadDate": "2026-10-10",
+      "fileSize": "2.4 MB",
+      "uploadedBy": "Dr. Rajesh Sharma",
+      "pages": 42,
+      "summary": "Big-O, Omega, Theta notation; Master Theorem; amortized analysis; dynamic array resizing.",
+      "downloadUrl": "/assets/sample-notes/DSA_Unit1_Asymptotic_Analysis.pdf"
+    },
+    {
+      "id": "NOTE-002",
+      "title": "Unit 2: Non-Linear Data Structures - AVL & Red-Black Trees",
+      "subject": "Data Structures & Algorithms",
+      "code": "CS301",
+      "unit": "Unit 2",
+      "fileName": "DSA_Unit2_Balanced_Trees.pdf",
+      "uploadDate": "2026-11-02",
+      "fileSize": "3.8 MB",
+      "uploadedBy": "Dr. Rajesh Sharma",
+      "pages": 58,
+      "summary": "Self-balancing binary search trees; rotations; B-Trees and B+ Trees for database indexing.",
+      "downloadUrl": "/assets/sample-notes/DSA_Unit2_Balanced_Trees.pdf"
+    },
+    {
+      "id": "NOTE-003",
+      "title": "Unit 1: OS Kernel Architecture & System Call Mechanisms",
+      "subject": "Operating Systems",
+      "code": "CS303",
+      "unit": "Unit 1",
+      "fileName": "OS_Unit1_Kernel_Architecture.pdf",
+      "uploadDate": "2026-10-12",
+      "fileSize": "1.9 MB",
+      "uploadedBy": "Dr. Vikram Malhotra",
+      "pages": 36,
+      "summary": "Monolithic vs Microkernel; user vs kernel mode transitions; interrupt handling; fork/exec system calls.",
+      "downloadUrl": "/assets/sample-notes/OS_Unit1_Kernel_Architecture.pdf"
+    },
+    {
+      "id": "NOTE-004",
+      "title": "Unit 2: Process Concurrency, Semaphores & Deadlocks",
+      "subject": "Operating Systems",
+      "code": "CS303",
+      "unit": "Unit 2",
+      "fileName": "OS_Unit2_Concurrency_and_Deadlocks.pdf",
+      "uploadDate": "2026-11-05",
+      "fileSize": "3.1 MB",
+      "uploadedBy": "Dr. Vikram Malhotra",
+      "pages": 64,
+      "summary": "Critical Section Problem; Peterson's solution; Counting & Binary Semaphores; Banker's Algorithm.",
+      "downloadUrl": "/assets/sample-notes/OS_Unit2_Concurrency_and_Deadlocks.pdf"
+    },
+    {
+      "id": "NOTE-005",
+      "title": "Unit 1: Network Layer Models & Physical Layer Transmission",
+      "subject": "Computer Networks",
+      "code": "CS302",
+      "unit": "Unit 1",
+      "fileName": "CN_Unit1_Reference_Models.pdf",
+      "uploadDate": "2026-10-08",
+      "fileSize": "2.8 MB",
+      "uploadedBy": "Prof. Ananya Roy",
+      "pages": 48,
+      "summary": "OSI 7-layer vs TCP/IP 4-layer stack; packet switching vs circuit switching; transmission impairments.",
+      "downloadUrl": "/assets/sample-notes/CN_Unit1_Reference_Models.pdf"
+    },
+    {
+      "id": "NOTE-006",
+      "title": "Unit 2: Transport Protocols (TCP Flow/Congestion Control vs UDP)",
+      "subject": "Computer Networks",
+      "code": "CS302",
+      "unit": "Unit 2",
+      "fileName": "CN_Unit2_Transport_Protocols.pdf",
+      "uploadDate": "2026-11-04",
+      "fileSize": "4.2 MB",
+      "uploadedBy": "Prof. Ananya Roy",
+      "pages": 52,
+      "summary": "Three-way handshake; TCP windowing; AIMD; Slow Start; Fast Retransmit; UDP multiplexing.",
+      "downloadUrl": "/assets/sample-notes/CN_Unit2_Transport_Protocols.pdf"
+    },
+    {
+      "id": "NOTE-007",
+      "title": "Unit 1 & 2: Propositional Logic, Quantifiers & Relations",
+      "subject": "Discrete Mathematics",
+      "code": "CS304",
+      "unit": "Unit 1 & 2",
+      "fileName": "DM_Unit1_2_Logic_Relations.pdf",
+      "uploadDate": "2026-10-15",
+      "fileSize": "2.1 MB",
+      "uploadedBy": "Prof. S. K. Gupta",
+      "pages": 44,
+      "summary": "Truth tables; valid arguments; predicates; equivalence relations; partial ordering & Hasse diagrams.",
+      "downloadUrl": "/assets/sample-notes/DM_Unit1_2_Logic_Relations.pdf"
+    },
+    {
+      "id": "NOTE-008",
+      "title": "Unit 1: Foundations of LLMs & Attention Mechanisms",
+      "subject": "Prompt Engineering & Generative AI",
+      "code": "AI301",
+      "unit": "Unit 1",
+      "fileName": "GenAI_Unit1_LLM_Foundations.pdf",
+      "uploadDate": "2026-10-20",
+      "fileSize": "5.0 MB",
+      "uploadedBy": "Dr. Neha Verma",
+      "pages": 70,
+      "summary": "Transformer architecture; Scaled Dot-Product Attention; Tokenization; temperature and top-p sampling.",
+      "downloadUrl": "/assets/sample-notes/GenAI_Unit1_LLM_Foundations.pdf"
+    },
+    {
+      "id": "NOTE-009",
+      "title": "Unit 2: Advanced Prompt Techniques (Zero-Shot, Few-Shot, CoT, ReAct)",
+      "subject": "Prompt Engineering & Generative AI",
+      "code": "AI301",
+      "unit": "Unit 2",
+      "fileName": "GenAI_Unit2_Prompt_Techniques.pdf",
+      "uploadDate": "2026-11-12",
+      "fileSize": "4.5 MB",
+      "uploadedBy": "Dr. Neha Verma",
+      "pages": 62,
+      "summary": "System instructions; Few-shot prompt engineering; Chain-of-Thought (CoT); Tree-of-Thoughts; ReAct agent frameworks.",
+      "downloadUrl": "/assets/sample-notes/GenAI_Unit2_Prompt_Techniques.pdf"
+    }
+  ],
+  "events": [
+    {
+      "id": "EVT-101",
+      "title": "HackAI 2026 – National Generative AI Hackathon",
+      "category": "Hackathon",
+      "date": "2026-11-28",
+      "time": "09:00 AM - 09:00 PM (36 Hours)",
+      "venue": "Campus Innovation Arena & Virtual",
+      "organizer": "AI & ML Department & Google Developer Student Club",
+      "description": "Compete against 150+ teams nationwide to build transformative GenAI applications using Gemini API, Multimodal agents, and RAG pipelines. Prizes worth ₹2,50,000!",
+      "isUpcoming": true,
+      "registered": false,
+      "badge": "Prize ₹2.5L",
+      "deadline": "2026-11-26"
+    },
+    {
+      "id": "EVT-102",
+      "title": "Hands-On Workshop: Production LLMOps & Vector Databases",
+      "category": "Workshop",
+      "date": "2026-11-25",
+      "time": "02:00 PM - 05:00 PM",
+      "venue": "AI-Lab & Zoom Live Stream",
+      "organizer": "Dr. Neha Verma (Faculty Advisor)",
+      "description": "Learn hands-on deployment of LLM systems, embedding generation, Qdrant/ChromaDB vector stores, semantic search, and prompt defense against jailbreaks.",
+      "isUpcoming": true,
+      "registered": true,
+      "badge": "Free Certification",
+      "deadline": "2026-11-24"
+    },
+    {
+      "id": "EVT-103",
+      "title": "Distinguished Industry Talk: Next-Gen AI Infrastructure at Hyperscalers",
+      "category": "Seminar",
+      "date": "2026-12-02",
+      "time": "11:00 AM - 01:00 PM",
+      "venue": "Main Auditorium (Room 501)",
+      "organizer": "Dean Academics & Industry Relations",
+      "description": "Keynote by Principal Research Engineer from Google DeepMind on scalable inference architectures, TPU accelerators, and autonomous agent loops.",
+      "isUpcoming": true,
+      "registered": false,
+      "badge": "Keynote",
+      "deadline": "2026-12-01"
+    },
+    {
+      "id": "EVT-104",
+      "title": "CodeSprint 2026: Inter-College Competitive Programming",
+      "category": "Competition",
+      "date": "2026-12-05",
+      "time": "10:00 AM - 02:00 PM",
+      "venue": "Central Computing Labs A & B",
+      "organizer": "ACM Student Chapter",
+      "description": "4-hour individual algorithmic contest testing advanced data structures, graph theory, dynamic programming, and greedy algorithms.",
+      "isUpcoming": true,
+      "registered": false,
+      "badge": "ACM Trophy",
+      "deadline": "2026-12-03"
+    },
+    {
+      "id": "EVT-098",
+      "title": "TechXpo Autumn 2026: Academic Project Showcase",
+      "category": "Exhibition",
+      "date": "2026-11-10",
+      "time": "10:00 AM - 04:00 PM",
+      "venue": "Campus Amphitheater",
+      "organizer": "Student Technical Council",
+      "description": "Annual semester showcase of hardware prototypes, AI agents, IoT devices, and robotics projects developed by 2nd and 3rd year engineering students.",
+      "isUpcoming": false,
+      "registered": true,
+      "badge": "Completed",
+      "deadline": "Past"
+    },
+    {
+      "id": "EVT-099",
+      "title": "Masterclass on Linux Kernel Internals & eBPF Tracing",
+      "category": "Workshop",
+      "date": "2026-10-28",
+      "time": "02:00 PM - 05:00 PM",
+      "venue": "CS-Lab 2",
+      "organizer": "Open Source Developers Club",
+      "description": "Deep dive into Linux process scheduler, memory virtual address translation, and modern observability using eBPF probes.",
+      "isUpcoming": false,
+      "registered": true,
+      "badge": "Completed",
+      "deadline": "Past"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ANN-201",
+      "title": "B.Tech 3rd Semester Mid-Term Examination Schedule Announced",
+      "date": "2026-11-20",
+      "category": "Exam Notice",
+      "author": "Controller of Examinations",
+      "priority": "High",
+      "content": "Mid-Term Examinations for 3rd Semester CSE (AI/ML) will commence from December 15, 2026. The detailed subject-wise date sheet and hall ticket downloads are available on the portal. No re-examinations will be scheduled without prior medical approvals."
+    },
+    {
+      "id": "ANN-202",
+      "title": "Lab Record Book Submission Guidelines & Viva Timetable",
+      "date": "2026-11-19",
+      "category": "Academic",
+      "author": "Department of CSE",
+      "priority": "Medium",
+      "content": "All students must submit hard-bound and faculty-signed lab manuals for Data Structures (CS301-P) and Operating Systems (CS303-P) on or before December 05, 2026. Internal viva marks carry 40% weightage in continuous evaluation."
+    },
+    {
+      "id": "ANN-203",
+      "title": "Google Cloud & Gemini API Developer Grants for Students",
+      "date": "2026-11-17",
+      "category": "Opportunity",
+      "author": "AI Innovation Lab",
+      "priority": "High",
+      "content": "Apex Institute students enrolled in AI301 Prompt Engineering can now activate free Google Cloud and Gemini API developer credits through the campus single sign-on system for their semester capstone projects."
+    },
+    {
+      "id": "ANN-204",
+      "title": "Central Library Extended Reading Room Hours for Exam Prep",
+      "date": "2026-11-15",
+      "category": "Facilities",
+      "author": "Chief Librarian",
+      "priority": "Low",
+      "content": "Starting Monday November 24th, the Central Library reading halls and digital knowledge center will remain open 24/7 with high-speed WiFi and coffee kiosks until the conclusion of semester end-term exams."
+    }
+  ],
+  "suggestedPrompts": [
+    "What classes do I have scheduled for today?",
+    "Show me all pending assignments and their submission deadlines.",
+    "Explain the Red-Black Tree balancing algorithm for my DSA assignment.",
+    "Who is the professor for Operating Systems and where is the classroom?",
+    "What events or hackathons are happening on campus this month?",
+    "Can you give me a 5-day study plan for my mid-term examinations?",
+    "How does the Producer-Consumer problem work with semaphores?"
+  ]
+}
